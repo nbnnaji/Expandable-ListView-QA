@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp">
+    <ImageView
+        android:src="@mipmap/ic_action_chat"
+        android:layout_width="140.1dp"
+        android:layout_height="76.2dp"
+        android:id="@+id/myIcon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_below="@id/myIcon"
+        android:layout_marginTop="15dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+        android:divider="#A4C739"
+        android:dividerHeight="0.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
